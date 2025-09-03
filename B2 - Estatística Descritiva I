@@ -1,0 +1,91 @@
+Estatística Descritiva I
+- Aplicar técnicas para descrever e sumarizar os dados.
+- Diferencia-se da inferencial, ou indutiva, pelo objetivo: organizar, sumarizar dados ao invés de usar os dados em aprendizado sobe a população.
+
+Métodos
+- Tabelas de Frequência (Simples ou em Classes)
+- Gráficos
+
+Métodos acessórios:
+- Medidas de Posição
+- Medidas de Dispersão
+- Medidas de Distribuição dos Dados ( assimetria, curtose, boxplot )
+- Estatísticas de Resumo
+- Estatísticas de Tendência
+
+Tabelas de Frequência
+- É uma das formas de sumarizar um conjunto de dados. E a mais utilizada;
+- Consiste em obter uma representação tabular ou gráfica baseada nas frequências com que os dados aparecem dentro do conjunto de dados utilizado, de modo a observar tendencias básicas e possíveis caminhos iniciais de analise
+- O tipo de tabela de frequência dependerá diretamente do tipo de variável que estamos estudando
+	- Variáveis quantitativas:
+		Discretas: Tabela de frequência simples
+		Continuas: Tabela de classes de frequencias
+	- Variáveis Qualitativas:
+		Nominais: Tabela de frequência simples
+		Ordinais: Geralmente nao se aplica essa forma de visualização de dados para dados ordinais 
+
+Variável discreta:
+xi= variável na posição i
+f1= frequência do valor x na posição i
+
+xi fi
+0  8
+1  5
+2  5
+3  2
+
+Variável continua:
+Class	Intervalo de classe	fi
+1		2-4					4
+2		4-6					12
+3		6-9					10
+4		8-10				4
+
+Tamanho e variedade amostral
+-Se n (tamanho da amostra) >30: Geralmente utilizamos a tabela de classes de frequencia
+
+#-------------------------------------------------------------------------------
+
+TABELA DE FREQUENCIA SIMPLES
+- N a primeira coluna estão os valores individuais observados no conjunto de dados (xi)
+- Na segunda coluna esta uma frequencia absoluta de cada valor observado (fi) e dela nascem as outras colunas
+	A terceira coluna é, uma frequencia acumulada absoluta (Fi)
+	A quarta coluna é, uma frequencia relativa ao total (fri)
+	A quina coluna é, uma frequencia acumulada relativa ao total (Fri)
+
+Exemplo 1
+Imagina que você tenha coletado, de uma turma escolar de 10 alunos, as seguintes notas: 0,8,10,6,10,4,0,10,2,8
+Construa uma tabela frequencia simples
+
+1º Passo: Olhar os valores individuais
+x = {0, 2, 4, 6, 8, 10}
+
+2º Passo: Contar quantas vezes cada um dos valores individuais aparecem nos dados:
+x = {0, 2, 4, 6, 8, 10}
+	 2, 1, 1, 1, 2, 3 	=>10
+
+3º Passo: Preencher os valores de xi
+
+4º Passo: Preencher os valores de fi
+
+5º Passo: Preecher os valores de fri
+
+6º Passo: Preecher os valores de Fi
+
+7º Passo: Criar um gráfico simples e interpretas os resultados
+
+
+xi	fi 	fri 		Fi(soma fi)		 Fri(soma fri)
+0 	2 	2/10=0,2 	=2 				 =0,2
+2 	1 	1/10=0,1 	=2+1=3 			 =0,2+0,1=0,3
+4 	1 	1/10=0,1 	=2+1+1=4 		 =0,2+0,1+0,1=0,4
+5 	1 	1/10=0,1 	=2+1+1+1=5 		 =0,2+0,1+0,1+0,1=0,5
+8 	2 	2/10=0,2 	=2+1+1+1+2=7 	 =0,2+0,1+0,1+0,1+0,1=0,7
+10 	3 	3/10=0,3 	=2+1+1+1+2+3=10  =0,2+0,1+0,1+0,1+0,1+0,3=1
+T 	10  1 			-				 -
+
+Valor xi = me diz cada valor discreto do conjunto
+Frequencia absoluta fi = a frequencia que cada uma desses valores acontece
+Frequencia absoluta acomulada fri = a porcentagem que o valor representa no meu conjunto de dados (ex: 0,2 = 20%)
+Frequencia relativa Fi = o quanto foi aumentar meus dados
+Frequencia relativa acumulada Fri = o quanto aumentar a partir do total

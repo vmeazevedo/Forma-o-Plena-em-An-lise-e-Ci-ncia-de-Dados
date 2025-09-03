@@ -1,0 +1,58 @@
+Probabilidade I
+- É a area da matemática que calcula as chances de um evento ocorrer em um experimento aleatório.
+
+Fenômenos
+- Qualquer acontecimento natural
+- Tipo:
+	Deterministico: são aqueles que repetidos sob mesmas condições iniciais conduzem sempre a um só resultado.
+	Aleatórios: são aqueles que repetidos sob mesmas condições iniciais podem conduzir a mais que um resultado.
+- Embora teoricamente tenhamos exigido as repetições, nas mesmas condições iniciais, isto na prática dificilmente ocorre.
+
+Experimento - Caracteristicas
+- Repetitividade: é a caracteristica de um fenomeno de poder ser repetido quantas vezes quisermos
+- Regularidade: é a caracteristica que diz respeito a possibilidade da ocorrencia dos resultado do fenomeno. A avaliação numerica da possibilida de ocorrencia destes resultados dará origem as probabilidades.
+
+Espaço Amostral (S)
+- Caracteriza-se pelos resultado possíveis dos experimentos:
+	Ex1: Ao lançar uma moeda, temos cara e coroa como resultados possívels, logo S = {c,k}
+	Ex2: No lançamento de um dado de 6 faces, temos S={1,2,3,4,5,6}
+
+- Diagrama de árvore:
+
+Evento
+- É qualquer subconjunto do espeço amostral do experimento
+	Ex: Lançamento de um dado [S={1,2,3,4,5,6}], podemos ter os seguintes subconjuntos
+	A={1,2}, B={3,4,5} e C=[}, sendo que C é um evento impossível pois é um evento que nunca ocorrerá
+- S é denominado também de evento certo
+- O contrário de evento certo é evento vazio
+- Outro exemplo: dar um numero par ao tirar os dados. E={2.4.6}
+
+Operações com eventos - Definições
+- União: Quando ocorre pelo menos um dos eventos
+- Intersecção: Quando ocorre os dois eventos ao mesmo tempo
+- Complementar: É o evento que ocorrer quando A não ocorrer
+
+A C B - A implica (está contido) em B
+A C B; B C A; Logo, A = B
+
+
+Axiomas de Probabilidade
+- Axioma 1 
+0 <= P(E) <= 1
+A probabiliada de um evento acontecer, é sempre entre 0 e 1
+
+- Axioma 2
+P(S) = 1
+A probabilidade do espaço amostral é 1
+
+
+Proposições de probabilidade
+- Proposição 4.1
+A probabilidade de um e complementar acontecer, ou seja, tudo que não é E, é a mesma coisa que 1 que é a probailidade do meu espaço amostral, menos a probabilidade de E acontecer
+
+- Proposição 4.2
+Se E esta contido em F, então a probabilidade de E é menor ou igual a F
+
+- Proposição 4.3
+Se eu tenho a probabilidade da uniao de E com F, isso é a probabilidade de E acontecer + a de F acontecer, menos a probabilidade de EF acontecer simultaneamente.
+
